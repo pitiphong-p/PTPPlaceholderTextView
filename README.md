@@ -8,11 +8,18 @@ A simple naive implementation of UITextView subclass to support *`placeholder`* 
 This requirement is due to the Swift runtime is available on iOS 8 or later. If you want to use this `PTPPlaceholderTextView`, please feel free to contact me. I also have the Objective-C implementation.
 
 # Installation
+## Manaully
 This project comes with built in *`PTPPlaceholderTextView framework`* target. You can drag `PTPPlaceholderTextView.xcproj` file into your project, add `PTPPlaceholderTextView framework` target as a target dependency and link/embed that framework. and Voila!!!
 ````swift
 import PTPPlaceholderTextView
 ````
 Or you can just add `PTPPlaceholderTextView.swift` into your project.
+## CocoaPod
+Add the following to your Podfile
+````ruby
+pod 'PTPPlaceholderTextView'
+use_frameworks!
+````
 
 # Usage
 You can set the placholder text via a *`placeholder`* property
