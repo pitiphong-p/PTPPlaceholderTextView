@@ -9,13 +9,36 @@
 /* Begin PBXBuildFile section */
 		8A06141B1C19D7BC00C731E4 /* PTPPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A06141A1C19D7BC00C731E4 /* PTPPlaceholderTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A9374BB1C19E11C000E6098 /* PTPPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9374BA1C19E11C000E6098 /* PTPPlaceholderTextView.swift */; };
+		8A9374D41C19EB6A000E6098 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9374D31C19EB6A000E6098 /* AppDelegate.swift */; };
+		8A9374D61C19EB6A000E6098 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9374D51C19EB6A000E6098 /* ViewController.swift */; };
+		8A9374D91C19EB6A000E6098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9374D71C19EB6A000E6098 /* Main.storyboard */; };
+		8A9374DB1C19EB6A000E6098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9374DA1C19EB6A000E6098 /* Assets.xcassets */; };
+		8A9374DE1C19EB6A000E6098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9374DC1C19EB6A000E6098 /* LaunchScreen.storyboard */; };
+		8A9374E51C19EC86000E6098 /* PTPPlaceholderTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0614171C19D7BB00C731E4 /* PTPPlaceholderTextView.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A9374E31C19EC83000E6098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A06140E1C19D7BB00C731E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0614161C19D7BB00C731E4;
+			remoteInfo = PTPPlaceholderTextView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8A0614171C19D7BB00C731E4 /* PTPPlaceholderTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PTPPlaceholderTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A06141A1C19D7BC00C731E4 /* PTPPlaceholderTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPPlaceholderTextView.h; sourceTree = "<group>"; };
 		8A06141C1C19D7BC00C731E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A9374BA1C19E11C000E6098 /* PTPPlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTPPlaceholderTextView.swift; sourceTree = SOURCE_ROOT; };
+		8A9374D11C19EB6A000E6098 /* PTPPlaceholderTextView-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PTPPlaceholderTextView-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9374D31C19EB6A000E6098 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A9374D51C19EB6A000E6098 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A9374D81C19EB6A000E6098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A9374DA1C19EB6A000E6098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A9374DD1C19EB6A000E6098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A9374DF1C19EB6A000E6098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +49,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A9374CE1C19EB6A000E6098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9374E51C19EC86000E6098 /* PTPPlaceholderTextView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -33,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				8A0614191C19D7BC00C731E4 /* PTPPlaceholderTextView */,
+				8A9374D21C19EB6A000E6098 /* PTPPlaceholderTextView-Demo */,
 				8A0614181C19D7BB00C731E4 /* Products */,
 			);
 			indentWidth = 2;
@@ -44,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8A0614171C19D7BB00C731E4 /* PTPPlaceholderTextView.framework */,
+				8A9374D11C19EB6A000E6098 /* PTPPlaceholderTextView-Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +89,19 @@
 				8A06141C1C19D7BC00C731E4 /* Info.plist */,
 			);
 			path = PTPPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		8A9374D21C19EB6A000E6098 /* PTPPlaceholderTextView-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8A9374D31C19EB6A000E6098 /* AppDelegate.swift */,
+				8A9374D51C19EB6A000E6098 /* ViewController.swift */,
+				8A9374D71C19EB6A000E6098 /* Main.storyboard */,
+				8A9374DA1C19EB6A000E6098 /* Assets.xcassets */,
+				8A9374DC1C19EB6A000E6098 /* LaunchScreen.storyboard */,
+				8A9374DF1C19EB6A000E6098 /* Info.plist */,
+			);
+			path = "PTPPlaceholderTextView-Demo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +136,24 @@
 			productReference = 8A0614171C19D7BB00C731E4 /* PTPPlaceholderTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		8A9374D01C19EB6A000E6098 /* PTPPlaceholderTextView-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9374E01C19EB6A000E6098 /* Build configuration list for PBXNativeTarget "PTPPlaceholderTextView-Demo" */;
+			buildPhases = (
+				8A9374CD1C19EB6A000E6098 /* Sources */,
+				8A9374CE1C19EB6A000E6098 /* Frameworks */,
+				8A9374CF1C19EB6A000E6098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A9374E41C19EC83000E6098 /* PBXTargetDependency */,
+			);
+			name = "PTPPlaceholderTextView-Demo";
+			productName = "PTPPlaceholderTextView-Demo";
+			productReference = 8A9374D11C19EB6A000E6098 /* PTPPlaceholderTextView-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +165,9 @@
 				ORGANIZATIONNAME = "Pitiphong Phongpattranont";
 				TargetAttributes = {
 					8A0614161C19D7BB00C731E4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8A9374D01C19EB6A000E6098 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -119,6 +186,7 @@
 			projectRoot = "";
 			targets = (
 				8A0614161C19D7BB00C731E4 /* PTPPlaceholderTextView */,
+				8A9374D01C19EB6A000E6098 /* PTPPlaceholderTextView-Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +196,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9374CF1C19EB6A000E6098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9374DE1C19EB6A000E6098 /* LaunchScreen.storyboard in Resources */,
+				8A9374DB1C19EB6A000E6098 /* Assets.xcassets in Resources */,
+				8A9374D91C19EB6A000E6098 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +220,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A9374CD1C19EB6A000E6098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9374D61C19EB6A000E6098 /* ViewController.swift in Sources */,
+				8A9374D41C19EB6A000E6098 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A9374E41C19EC83000E6098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A0614161C19D7BB00C731E4 /* PTPPlaceholderTextView */;
+			targetProxy = 8A9374E31C19EC83000E6098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A9374D71C19EB6A000E6098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A9374D81C19EB6A000E6098 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A9374DC1C19EB6A000E6098 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A9374DD1C19EB6A000E6098 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8A06141D1C19D7BC00C731E4 /* Debug */ = {
@@ -271,6 +385,28 @@
 			};
 			name = Release;
 		};
+		8A9374E11C19EB6A000E6098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PTPPlaceholderTextView-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.pitiphong.PTPPlaceholderTextView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A9374E21C19EB6A000E6098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PTPPlaceholderTextView-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.pitiphong.PTPPlaceholderTextView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -291,6 +427,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8A9374E01C19EB6A000E6098 /* Build configuration list for PBXNativeTarget "PTPPlaceholderTextView-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9374E11C19EB6A000E6098 /* Debug */,
+				8A9374E21C19EB6A000E6098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

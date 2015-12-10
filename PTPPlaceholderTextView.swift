@@ -1,5 +1,5 @@
 //
-//  PTPTextView.swift
+//  PTPPlaceholderTextView.swift
 //  PTPPlaceholderTextView
 //
 //  Created by Pitiphong Phongpattranont on 10/12/2015.
@@ -9,7 +9,7 @@
 import UIKit
 
 
-/// A naive implementation of UITextView subclass to support `placeholder` text rendering in UITextView
+/// A simple naive implementation of UITextView subclass to support `placeholder` text rendering in UITextView
 @IBDesignable public class PTPPlaceholderTextView: UITextView {
   
   /// Placeholder text that will be displayed when this text view doesnʼt have any text to display.
@@ -19,6 +19,7 @@ import UIKit
     }
   }
   /// Text color of the placeholder text
+  /// Default is 70% grey, like the UITextField's default placeholder color.
   @IBInspectable dynamic public var placeholderColor: UIColor = UIColor(white: 0.7, alpha: 1.0) {
     didSet {
       self.renderPlaceholderText()
