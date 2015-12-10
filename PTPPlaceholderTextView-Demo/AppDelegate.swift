@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // Uncomment the following code to test the UIAppearance support functionality.
     // PTPPlaceholderTextView.appearance().placeholderColor = UIColor.redColor()
+    // PTPPlaceholderTextView.appearanceWhenContainedInInstancesOfClasses([ViewController.self]).placeholderColor = UIColor.redColor()
     return true
   }
 
