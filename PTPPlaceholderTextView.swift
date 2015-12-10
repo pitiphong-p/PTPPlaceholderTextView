@@ -11,7 +11,7 @@ import UIKit
 
 /// A simple naive implementation of UITextView subclass to support `placeholder` text rendering in UITextView
 @IBDesignable public class PTPPlaceholderTextView: UITextView {
-  
+  // MARK: Public properties
   /// Placeholder text that will be displayed when this text view doesnʼt have any text to display.
   @IBInspectable public var placeholder: String? {
     didSet {
@@ -26,6 +26,7 @@ import UIKit
     }
   }
   
+  // MARK: - Private properties
   private var isPlaceholderActive = true
   private var actualTextColor: UIColor?
   private var isInRenderingPlaceholderProcess = false
@@ -37,6 +38,8 @@ import UIKit
       super.text = newValue
     }
   }
+  
+  // MARK: - Override properties
   override public var textColor: UIColor? {
     get {
       return self.isPlaceholderActive ? self.actualTextColor : super.textColor
@@ -71,6 +74,7 @@ import UIKit
     }
   }
   
+  // MARK: - Methods
   private func renderPlaceholderText() {
     // We don't render placeholder while this text view is the first responder.
     guard !self.isFirstResponder() else {
