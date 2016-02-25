@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A06AD86E1C7ECA6D00A94D6A"
+               BuildableName = "PTPPlaceholderTextViewTests.xctest"
+               BlueprintName = "PTPPlaceholderTextViewTests"
+               ReferencedContainer = "container:PTPPlaceholderTextView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A0614161C19D7BB00C731E4"
+            BuildableName = "PTPPlaceholderTextView.framework"
+            BlueprintName = "PTPPlaceholderTextView"
+            ReferencedContainer = "container:PTPPlaceholderTextView.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
