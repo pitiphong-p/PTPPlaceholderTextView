@@ -41,15 +41,8 @@ import UIKit
   
   // MARK: - Override properties
   override public var textColor: UIColor? {
-    get {
-      return self.isPlaceholderActive ? self.actualTextColor : super.textColor
-    }
-    set {
-      if self.isPlaceholderActive {
-        self.actualTextColor = textColor
-      } else {
-        super.textColor = newValue
-      }
+    didSet {
+      self.actualTextColor = self.textColor
     }
   }
   override public var attributedText: NSAttributedString? {

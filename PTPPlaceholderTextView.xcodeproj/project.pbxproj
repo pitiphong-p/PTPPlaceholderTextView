@@ -15,6 +15,8 @@
 		8A9374DB1C19EB6A000E6098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9374DA1C19EB6A000E6098 /* Assets.xcassets */; };
 		8A9374DE1C19EB6A000E6098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9374DC1C19EB6A000E6098 /* LaunchScreen.storyboard */; };
 		8A9374E51C19EC86000E6098 /* PTPPlaceholderTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0614171C19D7BB00C731E4 /* PTPPlaceholderTextView.framework */; };
+		A06AD8721C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06AD8711C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests.swift */; };
+		A06AD8741C7ECA6D00A94D6A /* PTPPlaceholderTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0614171C19D7BB00C731E4 /* PTPPlaceholderTextView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +26,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8A0614161C19D7BB00C731E4;
 			remoteInfo = PTPPlaceholderTextView;
+		};
+		A06AD8751C7ECA6D00A94D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A06140E1C19D7BB00C731E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0614161C19D7BB00C731E4;
+			remoteInfo = PTPPlaceholderTextView;
+		};
+		A06AD87A1C7ECB0F00A94D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A06140E1C19D7BB00C731E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A9374D01C19EB6A000E6098;
+			remoteInfo = "PTPPlaceholderTextView-Demo";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,6 +55,9 @@
 		8A9374DA1C19EB6A000E6098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A9374DD1C19EB6A000E6098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A9374DF1C19EB6A000E6098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06AD86F1C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTPPlaceholderTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06AD8711C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTPPlaceholderTextViewTests.swift; sourceTree = "<group>"; };
+		A06AD8731C7ECA6D00A94D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +76,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A06AD86C1C7ECA6D00A94D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06AD8741C7ECA6D00A94D6A /* PTPPlaceholderTextView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +92,7 @@
 			children = (
 				8A0614191C19D7BC00C731E4 /* PTPPlaceholderTextView */,
 				8A9374D21C19EB6A000E6098 /* PTPPlaceholderTextView-Demo */,
+				A06AD8701C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests */,
 				8A0614181C19D7BB00C731E4 /* Products */,
 			);
 			indentWidth = 2;
@@ -77,6 +105,7 @@
 			children = (
 				8A0614171C19D7BB00C731E4 /* PTPPlaceholderTextView.framework */,
 				8A9374D11C19EB6A000E6098 /* PTPPlaceholderTextView-Demo.app */,
+				A06AD86F1C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +131,15 @@
 				8A9374DF1C19EB6A000E6098 /* Info.plist */,
 			);
 			path = "PTPPlaceholderTextView-Demo";
+			sourceTree = "<group>";
+		};
+		A06AD8701C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A06AD8711C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests.swift */,
+				A06AD8731C7ECA6D00A94D6A /* Info.plist */,
+			);
+			path = PTPPlaceholderTextViewTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +192,25 @@
 			productReference = 8A9374D11C19EB6A000E6098 /* PTPPlaceholderTextView-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A06AD86E1C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A06AD8791C7ECA6D00A94D6A /* Build configuration list for PBXNativeTarget "PTPPlaceholderTextViewTests" */;
+			buildPhases = (
+				A06AD86B1C7ECA6D00A94D6A /* Sources */,
+				A06AD86C1C7ECA6D00A94D6A /* Frameworks */,
+				A06AD86D1C7ECA6D00A94D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A06AD8761C7ECA6D00A94D6A /* PBXTargetDependency */,
+				A06AD87B1C7ECB0F00A94D6A /* PBXTargetDependency */,
+			);
+			name = PTPPlaceholderTextViewTests;
+			productName = PTPPlaceholderTextViewTests;
+			productReference = A06AD86F1C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +226,9 @@
 					};
 					8A9374D01C19EB6A000E6098 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					A06AD86E1C7ECA6D00A94D6A = {
+						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
 			};
@@ -187,6 +247,7 @@
 			targets = (
 				8A0614161C19D7BB00C731E4 /* PTPPlaceholderTextView */,
 				8A9374D01C19EB6A000E6098 /* PTPPlaceholderTextView-Demo */,
+				A06AD86E1C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -206,6 +267,13 @@
 				8A9374DE1C19EB6A000E6098 /* LaunchScreen.storyboard in Resources */,
 				8A9374DB1C19EB6A000E6098 /* Assets.xcassets in Resources */,
 				8A9374D91C19EB6A000E6098 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A06AD86D1C7ECA6D00A94D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +297,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A06AD86B1C7ECA6D00A94D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06AD8721C7ECA6D00A94D6A /* PTPPlaceholderTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +312,16 @@
 			isa = PBXTargetDependency;
 			target = 8A0614161C19D7BB00C731E4 /* PTPPlaceholderTextView */;
 			targetProxy = 8A9374E31C19EC83000E6098 /* PBXContainerItemProxy */;
+		};
+		A06AD8761C7ECA6D00A94D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A0614161C19D7BB00C731E4 /* PTPPlaceholderTextView */;
+			targetProxy = A06AD8751C7ECA6D00A94D6A /* PBXContainerItemProxy */;
+		};
+		A06AD87B1C7ECB0F00A94D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A9374D01C19EB6A000E6098 /* PTPPlaceholderTextView-Demo */;
+			targetProxy = A06AD87A1C7ECB0F00A94D6A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -405,6 +491,26 @@
 			};
 			name = Release;
 		};
+		A06AD8771C7ECA6D00A94D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PTPPlaceholderTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarunw.PTPPlaceholderTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A06AD8781C7ECA6D00A94D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PTPPlaceholderTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarunw.PTPPlaceholderTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -434,6 +540,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		A06AD8791C7ECA6D00A94D6A /* Build configuration list for PBXNativeTarget "PTPPlaceholderTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06AD8771C7ECA6D00A94D6A /* Debug */,
+				A06AD8781C7ECA6D00A94D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
