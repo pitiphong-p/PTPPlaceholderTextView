@@ -14,11 +14,11 @@ class ViewController: UIViewController {
   @IBOutlet weak var textview: PTPPlaceholderTextView!
   
   override func viewDidLoad() {
-    self.textview.textColor = UIColor.redColor()
+    self.textview.textColor = UIColor.red
   }
   
-  @IBAction func dismissKeyboard(sender: UIBarButtonItem) {
-    textview.resignFirstResponder()
+  @IBAction func dismissKeyboard(_ sender: UIBarButtonItem) {
+    _ = textview.resignFirstResponder()
   }
 }
 
