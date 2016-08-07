@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PTPPlaceholderTextView"
-  s.version      = "0.5.0"
+  s.version      = "0.6.1"
   s.summary      = "A simple naive implementation of UITextView subclass to support placeholder text rendering in UITextView."
   s.description  = <<-DESC 
                    A simple naive implementation of UITextView subclass to support placeholder text rendering in UITextView.
