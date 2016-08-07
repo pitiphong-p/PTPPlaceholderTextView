@@ -43,6 +43,7 @@ import UIKit
   override public var textColor: UIColor? {
     didSet {
       self.actualTextColor = self.textColor
+      renderPlaceholderText()
     }
   }
   override public var attributedText: NSAttributedString? {
