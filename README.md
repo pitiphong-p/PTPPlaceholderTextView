@@ -3,7 +3,7 @@ A simple naive implementation of UITextView subclass to support *`placeholder`* 
 
 # Requirements
 - iOS 8+
-- Swift 2.0+
+- Swift 3.0+
 
 This requirement is due to the Swift runtime is available on iOS 8 or later. If you want to use this `PTPPlaceholderTextView`, please feel free to contact me. I also have the Objective-C implementation.
 
@@ -20,6 +20,8 @@ Add the following to your Podfile
 pod 'PTPPlaceholderTextView'
 use_frameworks!
 ````
+## Swift 2.2
+You can use PTPPlaceholderTextView in Swift 2.2 by checking out tag `0.6.1`
 
 # Usage
 You can set the placholder text via a *`placeholder`* property
