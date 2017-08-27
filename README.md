@@ -23,6 +23,9 @@ use_frameworks!
 ## Swift 2.2
 You can use PTPPlaceholderTextView in Swift 2.2 by checking out tag `0.6.1`
 
+## Swift 4.0
+You can use PTPPlaceholderTextView in Swift 4.0 (which is currently in Beta) by checking out branch `swift-4`
+
 # Usage
 You can set the placholder text via a *`placeholder`* property
 ````swift
