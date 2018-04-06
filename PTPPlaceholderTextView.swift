@@ -48,7 +48,7 @@ import UIKit
   }
   override open var attributedText: NSAttributedString? {
     get {
-      return super.attributedText 
+      return self.isPlaceholderActive ? nil : super.attributedText
     }
     set {
       super.attributedText = newValue
@@ -60,7 +60,7 @@ import UIKit
       }
       
       if !isInRenderingPlaceholderProcess {
-        self.isPlaceholderActive = (attributedText?.length == 0)
+        self.isPlaceholderActive = (attributedText?.length ?? 0) == 0
         self.renderPlaceholderText()
       }
     }
