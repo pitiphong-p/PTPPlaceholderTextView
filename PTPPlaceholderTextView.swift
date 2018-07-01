@@ -56,7 +56,7 @@ import UIKit
       if let attributedText = attributedText, attributedText.length > 0 && !isInRenderingPlaceholderProcess && !isPlaceholderActive {
         let attributes = attributedText.attributes(at: 0, effectiveRange: nil)
         // Set the text color property with the foreground color attribute of the first character, this is a mimic the default behavior of UITextView.
-        self.actualTextColor = attributes[NSAttributedStringKey.foregroundColor] as? UIColor ?? UIColor.black
+        self.actualTextColor = attributes[.foregroundColor] as? UIColor ?? UIColor.black
       }
       
       if !isInRenderingPlaceholderProcess {
