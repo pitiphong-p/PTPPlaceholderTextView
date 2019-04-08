@@ -24,9 +24,9 @@ class PTPPlaceholderTextViewTests: XCTestCase {
     }
     
     func testTextColor() {
-      self.textView.textColor = UIColor.redColor()
+      self.textView.textColor = UIColor.red
       
-      XCTAssertEqual(self.textView.textColor, UIColor.redColor())
+      XCTAssertEqual(self.textView.textColor, UIColor.red)
     }
     
 }

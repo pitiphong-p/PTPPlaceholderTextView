@@ -26,6 +26,8 @@ You can use PTPPlaceholderTextView in Swift 2.2 by checking out tag `0.6.1`
 You can use PTPPlaceholderTextView in Swift 2.2 by checking out tag `0.7.0`
 ## Swift 4.0
 You can use PTPPlaceholderTextView in Swift 4.0 by checking out tag `0.7.1`
+## Swift 4.2
+You can use PTPPlaceholderTextView in Swift 4.0 by checking out tag `0.7.2`
 
 # Usage
 You can set the placholder text via a *`placeholder`* property
